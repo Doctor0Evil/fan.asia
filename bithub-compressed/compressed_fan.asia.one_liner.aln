@@ -1,0 +1,4 @@
+# Filename: compressed_fan.asia.one_liner.aln
+# Destination folder: /bithub-compressed
+
+(let _compressed := ToValidUTF8(replace-all(replace-all(replace-all(replace-all(replace-all(replace-all(replace-all(replace-all(replace-all(replace-all(replace-all(replace-all(replace-all('','''lisp'', ''lisp''), ''.aln'', ''aln''), ''.ps1'', ''ps1''), ''.cfg'', ''cfg''), ''.json'', ''json''), ''.txt'', ''txt''), '\r\n', ' '), '\n', ' '), '  ', ' '), '\t', ' '), ' {', '{'), '} ', '}'), '[', '('), ']', ')')) in println(_compressed)
